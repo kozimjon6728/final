@@ -1,0 +1,46 @@
+@media screen and (max-width:1000px)  {
+    .top img{
+        display: none;
+    }
+    .button1{
+        height: 50px;
+        width: 50px;
+    }
+    .icons{
+        display: none;
+    }
+    .inp{
+        width: 800px;
+    }
+    .item1,hr{
+        display: none;
+    }
+}
+@media screen and (max-width:990px) {
+    .main{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+    }
+    .card{
+        width: 400px;
+    }
+    .main3{
+        display: grid;
+        grid-template-columns: repeat(3, 4fr);
+    }
+    .card1 img{
+        width: 100%;
+        
+    }
+}
+@media screen and (max-width:600px){
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1,6fr);
+    }
+    .card{
+        width: 60%;
+    }
+
+}

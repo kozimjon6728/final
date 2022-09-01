@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.collection{
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+}
+.top{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top img{
+    width: 220px;
+}
+.inp{
+        background-color: #dadcdf;
+        width: 900px;
+        height: 50px;
+        border: none;
+        margin-left: 20px;
+        font-size: 16px;
+        line-height: 34px;    
+}
+.icon1  {
+    display: none;
+}
+.button1{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: white;
+    border: 1px solid gray ;
+    position: sticky;
+}
+.icons{
+    margin-left: 10px;
+
+}
+.ii{
+    margin-left: 10px;
+}
+.icons i{
+    padding-left: 5px;
+}
+
+.icons p{
+    font-size: 12px;
+    text-align: center;
+}
+.body img{
+    width: 100%;
+}
+.bottom{
+    width: 100%;
+    margin-top: 5px;
+}
+.collections{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item1{
+    list-style: none;
+}
+.item1:nth-child(13){
+    color: red;
+}
+.title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 15%;
+    margin: auto;
+    margin-left: 10px;
+}
+.card img{
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+}
+.card p{
+    text-align: center;
+    font-weight: bold;
+}
+.main2 img{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.main3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1{
+    width: 15%;
+    height: auto; 
+    margin-left: 20px; 
+    margin-top: 5px;    
+}
+.card1 img{
+    width: 100%;
+    height: auto;
+}
+.paragraph{
+    text-align: center;
+    color: #999;
+}
+.carousel{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    overflow-x: auto;
+}
+.carousel_item{
+    width: 250px;
+    min-width: 320px;
+    height: 440px;
+    margin: 10px;
+}
+.carousel::-webkit-scrollbar{
+    height: 6px;
+
+}
+.carousel::-webkit-scrollbar-thumb{
+    background-color: #999;
+    border-radius: 6px;
+}
+.carousel_item h2, .paragraph1{
+    background-color: rgb(224, 222, 222);
+    width: 335px;
+    text-align: center;
+}
+.main4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card2{
+    width: 23%;
+    margin: auto;
+    height: auto;
+    margin-left: 18px;
+    background-color:rgb(241, 240, 240) ;
+}
+.card2 img{
+    width: 100%;
+    height: auto;
+}
+.card2 h3{
+    text-align: center;
+    padding-top: 10px;
+}
+.card2 p{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.main5{
+    text-align: center;
+    margin: 20px;    
+}
+.main5 img{
+    width: 98%;
+    margin: auto;
+}
+.main6{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card3{
+    width: 30%;
+    margin: auto;
+    height: auto;
+    background-color:rgb(241, 240, 240) ;
+}
+.card3 img{
+    width: 100%;
+    height: auto;
+}
+.card3 h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.card3 p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.button{
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(37, 29, 54);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+.buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card4{
+    width: 30%;
+    height: 50px;
+    background-color:rgb(241, 240, 240) ;
+   margin: 10px;
+}
+.card4 p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color:#545658
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #444;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card5{
+    width: 20%;
+    height: 280px;
+    font-size: 12px;
+    line-height: 40px;
+    margin: auto;
+}
+.items:nth-child(1){
+    font-weight: bold;
+}
+.collection2{
+    align-items: center;
+}
+.items{
+    color: #fff;
+    list-style: none;
+}
+.finish{
+    width: 100%;
+    height: 100px;
+    background-color: #2f3337;
+    display: flex;
+   
+}
+.finish p{
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.finish div:nth-child(1){
+    padding: 30px ;
+    width: 50%;
+
+}
+.finish div:nth-child(2){
+    padding: 30px ;
+    width: 50%;
+    color: #fff;
+
+}

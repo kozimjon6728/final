@@ -87,9 +87,9 @@
     flex-wrap: wrap;
 }
 .card{
-    width: 15%;
-    margin: auto;
-    margin-left: 10px;
+    width: 200px;
+    margin: 10px auto;
+    
 }
 .card img{
     width: 100%;
@@ -111,10 +111,9 @@
     flex-wrap: wrap;
 }
 .card1{
-    width: 15%;
+    width: 200px;
     height: auto; 
-    margin-left: 20px; 
-    margin-top: 5px;    
+     margin: 10px auto;    
 }
 .card1 img{
     width: 100%;
@@ -156,10 +155,8 @@
     flex-wrap: wrap;
 }
 .card2{
-    width: 23%;
-    margin: auto;
-    height: auto;
-    margin-left: 18px;
+    width: 300px;
+    margin:10px auto;
     background-color:rgb(241, 240, 240) ;
 }
 .card2 img{
@@ -190,8 +187,8 @@
     flex-wrap: wrap;
 }
 .card3{
-    width: 30%;
-    margin: auto;
+    width: 400px;
+    margin: 10px auto;
     height: auto;
     background-color:rgb(241, 240, 240) ;
 }
@@ -231,10 +228,10 @@
     flex-wrap: wrap;
 }
 .card4{
-    width: 30%;
+    width: 400px;
     height: 50px;
     background-color:rgb(241, 240, 240) ;
-   margin: 10px;
+   margin: 10px auto;
 }
 .card4 p{
     text-align: center;
@@ -245,13 +242,13 @@
 }
 .footer{
     width: 100%;
-    height: 400px;
+    height: auto;
     background-color: #444;
     display: flex;
     flex-wrap: wrap;
 }
 .card5{
-    width: 20%;
+    width: 250px;
     height: 280px;
     font-size: 12px;
     line-height: 40px;

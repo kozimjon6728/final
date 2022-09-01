@@ -3,6 +3,7 @@
         display: none;
     }
     .button1{
+        margin-right: 20px;
         height: 50px;
         width: 50px;
     }
@@ -11,6 +12,7 @@
     }
     .inp{
         width: 800px;
+        margin-right: 20px;
     }
     .item1,hr{
         display: none;
@@ -23,24 +25,30 @@
         grid-template-columns: repeat(2, 3fr);
     }
     .card{
-        width: 400px;
+        display: grid;
     }
     .main3{
         display: grid;
+        margin: auto;
         grid-template-columns: repeat(3, 4fr);
     }
-    .card1 img{
-        width: 100%;
-        
+    .card2{
+        margin-top: 20px;
+    }
+    .card5{
+        height: 400px;
     }
 }
 @media screen and (max-width:600px){
-    .main{
-        display: grid;
-        grid-template-columns: repeat(1,6fr);
+   
+    .finish div{
+        display: none;
     }
-    .card{
-        width: 60%;
+    .finish{
+        display: none;
+    }
+    .finish p{
+        display: none;
     }
 
 }
